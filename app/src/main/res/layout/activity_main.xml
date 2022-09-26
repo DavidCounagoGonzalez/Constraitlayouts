@@ -8,32 +8,39 @@
 
     <TextView
         android:id="@+id/textView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="75dp"
+        android:layout_width="67dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="110dp"
         android:layout_marginTop="300dp"
         android:text="@string/A"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/guideline3"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="150dp"
-        android:layout_marginTop="300dp"
+        android:layout_width="60dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="252dp"
+        android:layout_marginTop="420dp"
         android:text="@string/B"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="53dp"
+        android:layout_height="54dp"
         android:layout_marginStart="75dp"
         android:layout_marginTop="100dp"
         android:text="@string/C"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="55dp" />
 
 </android.support.constraint.ConstraintLayout>
